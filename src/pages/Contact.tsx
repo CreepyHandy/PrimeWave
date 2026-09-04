@@ -31,7 +31,7 @@ export function ContactPage({ onNav }: { onNav: (s: string) => void }) {
               </div>
               <div className="flex flex-col gap-6">
                 <p className="font-['General_Sans:Regular',sans-serif] text-[#b5ada4] text-[18px] leading-[1.6] max-w-[460px]">
-                  Whether you're launching a startup or refreshing your brand, we'd love to hear about your vision. Tell us what you're building, and let's explore how we can help.
+                  Whether you're launching a startup or refreshing your brands, we'd love to hear about your vision. Tell us what you're building, and let's explore how we can help.
                 </p>
                 <div>
                   <button
