@@ -1,11 +1,4 @@
 import { useEffect } from "react";
-import imgDetailHero from "../assets/DetailedWorkPage/e8aae7b65f47cce826c8aa0cd63d52507e152b75.png";
-import imgDetailGallery from "../assets/DetailedWorkPage/244f3962b9fc6f941659e4efbd5a7f61144c979e.png";
-import imgDetailChallenge0 from "../assets/DetailedWorkPage/f4d2aca7d035bba4932f77c89ee49e57d77beec7.png";
-import imgDetailChallenge1 from "../assets/DetailedWorkPage/5106151af6f806f3f4bfee72d1823b2b70b5c8f9.png";
-import imgDetailApproach0 from "../assets/DetailedWorkPage/3980c9be4471f65c828655e4cc10fe748a32293c.png";
-import imgDetailApproach1 from "../assets/DetailedWorkPage/1f45238c171fa2a42c04efc26f242d52ce7b9fb3.png";
-import imgDetailSolutions from "../assets/DetailedWorkPage/1c6af93d23c05f5dae812e8e5b808c496edb2bbe.png";
 
 import { allProjects, projectDetails } from "../data";
 import { Footer } from "../components/common/Footer";
@@ -30,8 +23,7 @@ export function WorkDetailPage({
 }) {
   const project = allProjects[projectIndex];
   const detail = projectDetails[projectIndex];
-  const nextIndex = (projectIndex + 1) % allProjects.length;
-
+  
   useEffect(() => {
     window.scrollTo({ top: 0 });
   }, [projectIndex]);
@@ -48,7 +40,7 @@ export function WorkDetailPage({
 
           {/* Hero image */}
           <div className="w-full h-[clamp(260px,45vw,600px)] rounded-lg overflow-hidden mb-16">
-            <img src={imgDetailHero} alt={project.title} className="w-full h-full object-cover" />
+            <img src={project.img} alt={project.title} className="w-full h-full object-cover" />
           </div>
 
           {/* Overview: heading left | text + meta right */}
@@ -75,14 +67,14 @@ export function WorkDetailPage({
             {/* Gallery: full-width top + two side-by-side below, equal heights */}
             <div className="flex flex-col gap-3 mb-12">
               <div className="w-full rounded-lg overflow-hidden h-[clamp(220px,32vw,420px)] bg-[#161412]">
-                <img src={imgDetailGallery} alt="" className="w-full h-full object-cover" />
+                <img src={detail.galleryImg} alt="" className="w-full h-full object-cover" />
               </div>
               <div className="grid grid-cols-2 gap-3">
                 <div className="rounded-lg overflow-hidden h-[clamp(220px,32vw,420px)] bg-[#161412]">
-                  <img src={imgDetailChallenge0} alt="" className="w-full h-full object-cover" />
+                  <img src={detail.challengeImg0} alt="" className="w-full h-full object-cover" />
                 </div>
                 <div className="rounded-lg overflow-hidden h-[clamp(220px,32vw,420px)] bg-[#161412]">
-                  <img src={imgDetailChallenge1} alt="" className="w-full h-full object-cover" />
+                  <img src={detail.challengeImg1} alt="" className="w-full h-full object-cover" />
                 </div>
               </div>
             </div>
@@ -106,10 +98,10 @@ export function WorkDetailPage({
             <div className="flex flex-col gap-4 mb-12">
               <div className="grid grid-cols-2 gap-4">
                 <div className="rounded-lg overflow-hidden h-[clamp(160px,22vw,320px)] bg-[#161412]">
-                  <img src={imgDetailApproach0} alt="" className="w-full h-full object-cover" />
+                  <img src={detail.approachImg0} alt="" className="w-full h-full object-cover" />
                 </div>
                 <div className="rounded-lg overflow-hidden h-[clamp(160px,22vw,320px)] bg-[#161412]">
-                  <img src={imgDetailApproach1} alt="" className="w-full h-full object-cover" />
+                  <img src={detail.approachImg1} alt="" className="w-full h-full object-cover" />
                 </div>
               </div>
             </div>
@@ -131,10 +123,10 @@ export function WorkDetailPage({
           <div className="mb-20">
             <div className="grid grid-cols-2 gap-3 mb-12">
               <div className="rounded-lg overflow-hidden h-[clamp(220px,32vw,420px)] bg-[#161412]">
-                <img src={imgDetailApproach0} alt="" className="w-full h-full object-cover" />
+                <img src={detail.approachImg0} alt="" className="w-full h-full object-cover" />
               </div>
               <div className="rounded-lg overflow-hidden h-[clamp(220px,32vw,420px)] bg-[#161412]">
-                <img src={imgDetailSolutions} alt="" className="w-full h-full object-cover" />
+                <img src={detail.solutionsImg} alt="" className="w-full h-full object-cover" />
               </div>
             </div>
             <div className="flex flex-col md:flex-row gap-10">
@@ -158,18 +150,23 @@ export function WorkDetailPage({
 
           {/* Previous / Next Project */}
           <div className="flex justify-between pt-4">
-            <button
-              onClick={() => onSelectProject((projectIndex - 1 + allProjects.length) % allProjects.length)}
-              className="font-['General_Sans:Regular',sans-serif] text-[#b5ada4] text-[16px] underline underline-offset-2 hover:text-white transition-colors duration-200"
-            >
-              ‹ Previous Project
-            </button>
-            <button
-              onClick={() => onSelectProject(nextIndex)}
-              className="font-['General_Sans:Regular',sans-serif] text-[#b5ada4] text-[16px] underline underline-offset-2 hover:text-white transition-colors duration-200"
-            >
-              Next Project ›
-            </button>
+            {projectIndex > 0 ? (
+              <button
+                onClick={() => onSelectProject(projectIndex - 1)}
+                className="font-['General_Sans:Regular',sans-serif] text-[#b5ada4] text-[16px] underline underline-offset-2 hover:text-white transition-colors duration-200"
+              >
+                ‹ Previous Project
+              </button>
+            ) : <div />}
+            
+            {projectIndex < allProjects.length - 1 ? (
+              <button
+                onClick={() => onSelectProject(projectIndex + 1)}
+                className="font-['General_Sans:Regular',sans-serif] text-[#b5ada4] text-[16px] underline underline-offset-2 hover:text-white transition-colors duration-200"
+              >
+                Next Project ›
+              </button>
+            ) : <div />}
           </div>
 
         </div>
