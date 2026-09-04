@@ -9,25 +9,20 @@
   src: url("https://cdn.jsdelivr.net/fontsource/fonts/cal-sans@latest/latin-400-normal.woff2") format("woff2");
 }
 
-@font-face {
-  font-family: "Roboto Mono:Regular";
-  font-style: normal;
-  font-weight: 400;
-  src: url("https://fonts.gstatic.com/s/robotomono/v23/L0x5DF4xlVMF-BfR8bXMIjhGq3-cXbKDO1w.woff2") format("woff2");
-}
+
 
 @font-face {
   font-family: "General Sans:Regular";
   font-style: normal;
   font-weight: 400;
-  src: local("Inter"), url("https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2") format("woff2");
+  src: url("https://cdn.fontshare.com/wf/MFQT7HFGCR2L5ULQTW6YXYZXXHMPKLJ3/YWQ244D6TACUX5JBKATPOW5I5MGJ3G73/7YY3ZAAE3TRV2LANYOLXNHTPHLXVWTKH.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "General Sans:Medium";
   font-style: normal;
   font-weight: 500;
-  src: local("Inter Medium"), url("https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2") format("woff2");
+  src: url("https://cdn.fontshare.com/wf/3RZHWSNONLLWJK3RLPEKUZOMM56GO4LJ/BPDRY7AHVI3MCDXXVXTQQ76H3UXA63S3/SB2OEB6IKZPRR6JT4GFJ2TFT6HBB6AZN.woff2") format("woff2");
 }
 
 html,

@@ -21,6 +21,14 @@ import imgAvatar2 from "../assets/LandingPage-1/44f054b7349d5a1b263a57682db79a05
 import imgAvatar3 from "../assets/LandingPage-1/a0f4159ae4f1c2a43e33e223d4ce1e8e3362104a.png";
 import imgAvatar4 from "../assets/LandingPage-1/eddc1f0a2f48f3cbb303c29ff073fe5507046f7e.png";
 
+
+import imgDetailGallery from "../assets/DetailedWorkPage/244f3962b9fc6f941659e4efbd5a7f61144c979e.png";
+import imgDetailChallenge0 from "../assets/DetailedWorkPage/f4d2aca7d035bba4932f77c89ee49e57d77beec7.png";
+import imgDetailChallenge1 from "../assets/DetailedWorkPage/5106151af6f806f3f4bfee72d1823b2b70b5c8f9.png";
+import imgDetailApproach0 from "../assets/DetailedWorkPage/3980c9be4471f65c828655e4cc10fe748a32293c.png";
+import imgDetailApproach1 from "../assets/DetailedWorkPage/1f45238c171fa2a42c04efc26f242d52ce7b9fb3.png";
+import imgDetailSolutions from "../assets/DetailedWorkPage/1c6af93d23c05f5dae812e8e5b808c496edb2bbe.png";
+
 export const logoImages = [
   imgLogoRaw0, imgLogoRaw1, imgLogoRaw2, imgLogoRaw3, imgLogoRaw4,
   imgLogoRaw5, imgLogoRaw6, imgLogoRaw7, imgLogoRaw8, imgLogoRaw9,
@@ -101,6 +109,12 @@ export const testimonials = [
 ];
 
 export type ProjectDetail = {
+  galleryImg: string;
+  challengeImg0: string;
+  challengeImg1: string;
+  approachImg0: string;
+  approachImg1: string;
+  solutionsImg: string;
   overviewHeading: string;
   overviewPara1: string;
   overviewPara2: string;
@@ -136,6 +150,7 @@ export const projectDetails: ProjectDetail[] = [
     solutionsLabel: "Solutions", solutionsHeading: "A modern SaaS experience built for growth.",
     solutionsPara1: "The final result combines a premium visual identity with a strategic, conversion-focused website that balances aesthetics with usability. Every page is designed to clearly communicate the product's value, build trust through thoughtful design, and guide visitors toward meaningful actions.",
     solutionsPara2: "The cohesive brand system ensures consistency across every touchpoint, while the flexible layout supports future growth as the company evolves. The outcome is a modern digital experience that helps emerging AI companies stand out, attract the right customers, and scale with confidence.",
+    galleryImg: imgDetailGallery, challengeImg0: imgDetailChallenge0, challengeImg1: imgDetailChallenge1, approachImg0: imgDetailApproach0, approachImg1: imgDetailApproach1, solutionsImg: imgDetailSolutions
   },
   {
     overviewHeading: "A consulting presence built on clarity and authority.",
@@ -151,6 +166,7 @@ export const projectDetails: ProjectDetail[] = [
     solutionsLabel: "Solutions", solutionsHeading: "A website that converts trust into action.",
     solutionsPara1: "The delivered site presents United Consulting as a premium advisory partner — not just a service provider. Clear service definitions, credibility signals, and friction-free contact flows work together to shorten the sales cycle.",
     solutionsPara2: "The result is a digital presence that consistently converts qualified visitors into active pipeline opportunities, establishing United Consulting as the clear choice for organizations seeking strategic counsel.",
+    galleryImg: imgDetailGallery, challengeImg0: imgDetailChallenge0, challengeImg1: imgDetailChallenge1, approachImg0: imgDetailApproach0, approachImg1: imgDetailApproach1, solutionsImg: imgDetailSolutions
   },
   {
     overviewHeading: "Defining a legacy brand for the digital age.",
@@ -166,6 +182,7 @@ export const projectDetails: ProjectDetail[] = [
     solutionsLabel: "Solutions", solutionsHeading: "A brand system that scales with growth.",
     solutionsPara1: "The resulting identity system gives Crestmark Capital a distinctive, ownable presence across digital, print, and environmental contexts. A comprehensive guidelines document ensures consistency as the firm grows.",
     solutionsPara2: "The flexible component library makes it easy to extend the system to new products, markets, and communications without requiring a full redesign — a brand built to compound in value over time.",
+    galleryImg: imgDetailGallery, challengeImg0: imgDetailChallenge0, challengeImg1: imgDetailChallenge1, approachImg0: imgDetailApproach0, approachImg1: imgDetailApproach1, solutionsImg: imgDetailSolutions
   },
   {
     overviewHeading: "Healthcare design that puts people first.",
@@ -181,6 +198,7 @@ export const projectDetails: ProjectDetail[] = [
     solutionsLabel: "Solutions", solutionsHeading: "A platform that inspires confidence and care.",
     solutionsPara1: "The redesigned Ability platform reduced time-to-task for core patient journeys by a significant margin while measurably improving satisfaction scores. Warm, accessible typography and human photography transformed the emotional tone.",
     solutionsPara2: "A carefully sequenced information architecture ensured patients could find what they needed quickly and confidently. The result is a product that people trust — and return to — during the moments that matter most.",
+    galleryImg: imgDetailGallery, challengeImg0: imgDetailChallenge0, challengeImg1: imgDetailChallenge1, approachImg0: imgDetailApproach0, approachImg1: imgDetailApproach1, solutionsImg: imgDetailSolutions
   },
   {
     overviewHeading: "Building anticipation before the doors open.",
@@ -196,5 +214,6 @@ export const projectDetails: ProjectDetail[] = [
     solutionsLabel: "Solutions", solutionsHeading: "An event experience that starts online.",
     solutionsPara1: "The Reunion website delivered exceptional pre-launch conversion rates, with early-access ticket tiers selling out significantly ahead of schedule. The brand extended seamlessly across social, email, and physical venue materials.",
     solutionsPara2: "A cohesive world of touchpoints built anticipation at every stage of the journey. Reunion established itself as a signature event before a single attendee had walked through the door.",
+    galleryImg: imgDetailGallery, challengeImg0: imgDetailChallenge0, challengeImg1: imgDetailChallenge1, approachImg0: imgDetailApproach0, approachImg1: imgDetailApproach1, solutionsImg: imgDetailSolutions
   }
 ];
