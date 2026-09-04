@@ -13,7 +13,7 @@ import { Footer } from "../components/common/Footer";
 function MetaStat({ label, value }: { label: string; value: string }) {
   return (
     <div className="flex flex-col items-start gap-2">
-      <span className="font-['Roboto_Mono:Regular',monospace] text-[#239cff] text-[13px] tracking-[1px] uppercase">{label}</span>
+      <span className="font-['General_Sans:Regular',sans-serif] text-[#239cff] text-[13px] tracking-[1px] uppercase">{label}</span>
       <span className="font-['General_Sans:Regular',sans-serif] text-[#fcfaf5] text-[16px]">{value}</span>
     </div>
   );
@@ -89,7 +89,7 @@ export function WorkDetailPage({
             {/* Text: label+heading left | two paragraphs right */}
             <div className="flex flex-col md:flex-row gap-10">
               <div className="md:flex-1 flex flex-col gap-4">
-                <span className="font-['Roboto_Mono:Regular',monospace] text-[#239cff] text-[13px] tracking-[1px] uppercase">{detail.challengeLabel}</span>
+                <span className="font-['General_Sans:Regular',sans-serif] text-[#239cff] text-[13px] tracking-[1px] uppercase">{detail.challengeLabel}</span>
                 <h2 className="font-['Cal_Sans:Regular',sans-serif] text-[#fcfaf5] text-[clamp(28px,3.5vw,48px)] tracking-[-0.3px] leading-[1.2]">
                   {detail.challengeHeading}
                 </h2>
@@ -115,7 +115,7 @@ export function WorkDetailPage({
             </div>
             <div className="flex flex-col md:flex-row gap-10">
               <div className="md:flex-1 flex flex-col gap-4">
-                <span className="font-['Roboto_Mono:Regular',monospace] text-[#239cff] text-[13px] tracking-[1px] uppercase">{detail.approachLabel}</span>
+                <span className="font-['General_Sans:Regular',sans-serif] text-[#239cff] text-[13px] tracking-[1px] uppercase">{detail.approachLabel}</span>
                 <h2 className="font-['Cal_Sans:Regular',sans-serif] text-[#fcfaf5] text-[clamp(28px,3.5vw,48px)] tracking-[-0.3px] leading-[1.2]">
                   {detail.approachHeading}
                 </h2>
@@ -139,7 +139,7 @@ export function WorkDetailPage({
             </div>
             <div className="flex flex-col md:flex-row gap-10">
               <div className="md:flex-1 flex flex-col gap-4">
-                <span className="font-['Roboto_Mono:Regular',monospace] text-[#239cff] text-[13px] tracking-[1px] uppercase">{detail.solutionsLabel}</span>
+                <span className="font-['General_Sans:Regular',sans-serif] text-[#239cff] text-[13px] tracking-[1px] uppercase">{detail.solutionsLabel}</span>
                 <h2 className="font-['Cal_Sans:Regular',sans-serif] text-[#fcfaf5] text-[clamp(28px,3.5vw,48px)] tracking-[-0.3px] leading-[1.2]">
                   {detail.solutionsHeading}
                 </h2>

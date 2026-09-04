@@ -44,7 +44,7 @@ export function Services() {
                         <span className="font-['Cal_Sans:Regular',sans-serif] text-[#b5ada4] text-[16px] md:text-[24px] leading-[1.1]">
                           {item}
                         </span>
-                        <span className="font-['Roboto_Mono:Regular',monospace] text-[#239cff] text-[13px] tracking-[1px] uppercase">
+                        <span className="font-['General_Sans:Regular',sans-serif] text-[#239cff] text-[13px] tracking-[1px] uppercase">
                           {String(idx + 1).padStart(2, "0")}
                         </span>
                       </div>
