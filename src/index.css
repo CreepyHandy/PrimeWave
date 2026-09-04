@@ -6,14 +6,14 @@
   font-family: "Cal Sans:Regular";
   font-style: normal;
   font-weight: 400;
-  src: url("https://static.figma.com/font/CalSans-Regular_1") format("woff2");
+  src: url("https://cdn.jsdelivr.net/fontsource/fonts/cal-sans@latest/latin-400-normal.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Roboto Mono:Regular";
   font-style: normal;
   font-weight: 400;
-  src: url("https://static.figma.com/font/RobotoMono_wght__2") format("woff2");
+  src: url("https://fonts.gstatic.com/s/robotomono/v23/L0x5DF4xlVMF-BfR8bXMIjhGq3-cXbKDO1w.woff2") format("woff2");
 }
 
 @font-face {
