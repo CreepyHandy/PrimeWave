@@ -39,8 +39,11 @@ export function WorkDetailPage({
           </h1>
 
           {/* Hero image */}
-          <div className="w-full h-[clamp(260px,45vw,600px)] rounded-lg overflow-hidden mb-16">
-            <img src={project.img} alt={project.title} className="w-full h-full object-cover" />
+          <div 
+            className="w-full h-[clamp(260px,45vw,600px)] rounded-lg overflow-hidden mb-16"
+            style={{ backgroundColor: project.bgColor || "#161412" }}
+          >
+            <img src={project.img} alt={project.title} className={`w-full h-full ${project.containImg ? 'object-contain p-8 md:p-16' : 'object-cover'}`} />
           </div>
 
           {/* Overview: heading left | text + meta right */}
@@ -51,8 +54,8 @@ export function WorkDetailPage({
               </h2>
             </div>
             <div className="md:flex-1 flex flex-col gap-5">
-              <p className="font-['General_Sans:Regular',sans-serif] text-[#b5ada4] text-[16px] leading-[1.6]">{detail.overviewPara1}</p>
-              <p className="font-['General_Sans:Regular',sans-serif] text-[#b5ada4] text-[16px] leading-[1.6]">{detail.overviewPara2}</p>
+              <p className="font-['General_Sans:Regular',sans-serif] text-[#b5ada4] text-[16px] leading-[1.6] whitespace-pre-wrap">{detail.overviewPara1}</p>
+              <p className="font-['General_Sans:Regular',sans-serif] text-[#b5ada4] text-[16px] leading-[1.6] whitespace-pre-wrap">{detail.overviewPara2}</p>
               {/* Meta stats — nested in the right column, below paragraphs */}
               <div className="flex flex-wrap gap-10 pt-6 mt-2 border-t border-white/10">
                 <MetaStat label="Client" value={detail.client} />
@@ -87,8 +90,8 @@ export function WorkDetailPage({
                 </h2>
               </div>
               <div className="md:flex-1 flex flex-col gap-5">
-                <p className="font-['General_Sans:Regular',sans-serif] text-[#b5ada4] text-[16px] leading-[1.6]">{detail.challengePara1}</p>
-                <p className="font-['General_Sans:Regular',sans-serif] text-[#b5ada4] text-[16px] leading-[1.6]">{detail.challengePara2}</p>
+                <p className="font-['General_Sans:Regular',sans-serif] text-[#b5ada4] text-[16px] leading-[1.6] whitespace-pre-wrap">{detail.challengePara1}</p>
+                <p className="font-['General_Sans:Regular',sans-serif] text-[#b5ada4] text-[16px] leading-[1.6] whitespace-pre-wrap">{detail.challengePara2}</p>
               </div>
             </div>
           </div>
@@ -113,8 +116,8 @@ export function WorkDetailPage({
                 </h2>
               </div>
               <div className="md:flex-1 flex flex-col gap-5">
-                <p className="font-['General_Sans:Regular',sans-serif] text-[#b5ada4] text-[16px] leading-[1.6]">{detail.approachPara1}</p>
-                <p className="font-['General_Sans:Regular',sans-serif] text-[#b5ada4] text-[16px] leading-[1.6]">{detail.approachPara2}</p>
+                <p className="font-['General_Sans:Regular',sans-serif] text-[#b5ada4] text-[16px] leading-[1.6] whitespace-pre-wrap">{detail.approachPara1}</p>
+                <p className="font-['General_Sans:Regular',sans-serif] text-[#b5ada4] text-[16px] leading-[1.6] whitespace-pre-wrap">{detail.approachPara2}</p>
               </div>
             </div>
           </div>
@@ -137,8 +140,8 @@ export function WorkDetailPage({
                 </h2>
               </div>
               <div className="md:flex-1 flex flex-col gap-5">
-                <p className="font-['General_Sans:Regular',sans-serif] text-[#b5ada4] text-[16px] leading-[1.6]">{detail.solutionsPara1}</p>
-                <p className="font-['General_Sans:Regular',sans-serif] text-[#b5ada4] text-[16px] leading-[1.6]">{detail.solutionsPara2}</p>
+                <p className="font-['General_Sans:Regular',sans-serif] text-[#b5ada4] text-[16px] leading-[1.6] whitespace-pre-wrap">{detail.solutionsPara1}</p>
+                <p className="font-['General_Sans:Regular',sans-serif] text-[#b5ada4] text-[16px] leading-[1.6] whitespace-pre-wrap">{detail.solutionsPara2}</p>
                 <div>
                   <button className="px-5 py-2.5 rounded-full bg-gradient-to-r from-[#239cff] to-[#005be3] text-white font-['General_Sans:Medium',sans-serif] text-[14px] hover:opacity-90 transition-opacity duration-200">
                     Live preview

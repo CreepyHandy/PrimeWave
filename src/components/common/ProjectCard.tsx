@@ -1,11 +1,14 @@
 export function ProjectCard({ project, index, onSelect }: { project: any; index: number; onSelect: (i: number) => void }) {
   return (
     <div className="group cursor-pointer" onClick={() => onSelect(index)}>
-      <div className="relative overflow-hidden rounded-lg aspect-[548/400] bg-[#161412] mb-4">
+      <div 
+        className="relative overflow-hidden rounded-lg aspect-[548/400] mb-4"
+        style={{ backgroundColor: project.bgColor || "#161412" }}
+      >
         <img
           src={project.img}
           alt={project.title}
-          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+          className={`w-full h-full transition-transform duration-500 group-hover:scale-105 ${project.containImg ? 'object-contain p-6 md:p-10' : 'object-cover'}`}
         />
         <div className="absolute inset-0 bg-[#239cff]/0 group-hover:bg-[#239cff]/10 transition-colors duration-300" />
         <div className="absolute top-4 left-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
