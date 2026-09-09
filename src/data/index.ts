@@ -15,6 +15,7 @@ import imgProject2 from "../assets/LandingPage-1/ffb771fc96528e8e1e06b15675a3777
 import imgProject3 from "../assets/LandingPage-1/8667165634c9636b348d82e7aa956251cdf94654.png";
 import imgWorksAssure from "../assets/GeneralWorksPage/e8aae7b65f47cce826c8aa0cd63d52507e152b75.png";
 import imgWorksReunion from "../assets/GeneralWorksPage/ee9ca2f711e5713c9109e8a7486e20bd528cfa2c.png";
+import imgWorksTracman from "../assets/Works/tracman_new.png";
 import imgAvatar0 from "../assets/LandingPage-1/cdd0e239cdc4f711bd9f452f8d8dca4dabd17547.png";
 import imgAvatar1 from "../assets/LandingPage-1/6259054dfd21c8de11534318ab98596ddbd7729a.png";
 import imgAvatar2 from "../assets/LandingPage-1/44f054b7349d5a1b263a57682db79a056ab3bf06.png";
@@ -69,14 +70,14 @@ export const serviceCategories = [
 
 export const projects = [
   { img: imgProject0, title: "Assure (AI SaaS)", subtitle: "Building trust for an AI-first platform.", tags: ["AI", "SaaS", "Identity"] },
-  { img: imgProject1, title: "United Consulting", subtitle: "A consulting website built around clarity.", tags: ["Website", "Branding"] },
+  { img: imgWorksTracman, title: "Tracman", subtitle: "Making hotel operations feel effortless.", tags: ["Product", "Hospitality"], bgColor: "#FB7637", containImg: true },
   { img: imgProject2, title: "Crestmark", subtitle: "An institutional identity for modern investment firms.", tags: ["Identity", "Finance"] },
   { img: imgProject3, title: "Ability", subtitle: "Designing healthcare with confidence.", tags: ["Healthcare", "Product"] },
 ];
 
 export const allProjects = [
   { img: imgWorksAssure, title: "Assure (AI SaaS)", subtitle: "Building trust for an AI-first platform.", tags: ["AI", "SaaS", "Identity"] },
-  { img: imgProject1, title: "United Consulting", subtitle: "A consulting website built around clarity.", tags: ["Website", "Branding"] },
+  { img: imgWorksTracman, title: "Tracman", subtitle: "Making hotel operations feel effortless.", tags: ["Product", "Hospitality"], bgColor: "#FB7637", containImg: true },
   { img: imgProject2, title: "Crestmark", subtitle: "An institutional identity for modern investment firms.", tags: ["Identity", "Finance"] },
   { img: imgProject3, title: "Ability", subtitle: "Designing healthcare with confidence.", tags: ["Healthcare", "Product"] },
   { img: imgWorksReunion, title: "Reunion", subtitle: "Creating excitement before the event begins.", tags: ["Event", "Brand"] },
@@ -153,19 +154,19 @@ export const projectDetails: ProjectDetail[] = [
     galleryImg: imgDetailGallery, challengeImg0: imgDetailChallenge0, challengeImg1: imgDetailChallenge1, approachImg0: imgDetailApproach0, approachImg1: imgDetailApproach1, solutionsImg: imgDetailSolutions
   },
   {
-    overviewHeading: "A consulting presence built on clarity and authority.",
-    overviewPara1: "United Consulting needed a digital presence that projected expertise and professionalism to enterprise clients while remaining approachable and easy to navigate. The existing brand lacked coherence across touchpoints, making it difficult for prospects to quickly assess services and take action.",
-    overviewPara2: "The goal was to create a high-converting website that established immediate credibility, communicated the firm's strategic capabilities, and guided decision-makers through a clear engagement funnel — turning visits into qualified conversations.",
-    client: "United Consulting", duration: "4 Weeks", industry: "Professional Services",
-    challengeLabel: "Challenge", challengeHeading: "Communicating expertise without complexity.",
-    challengePara1: "Consulting firms often struggle to differentiate themselves online. Generic language, dense copy, and uninspired layouts fail to communicate the depth of expertise that clients are actually paying for.",
-    challengePara2: "The challenge was to translate United Consulting's strategic depth into a visual and verbal identity that felt authoritative, modern, and instantly trustworthy to C-suite buyers — without sacrificing accessibility or warmth.",
-    approachLabel: "Approach", approachHeading: "Structure that builds confidence.",
-    approachPara1: "We mapped the buyer journey from first impression to inquiry, structuring each page to answer the right questions at the right time. A disciplined typographic hierarchy and restrained color palette reinforced credibility.",
-    approachPara2: "Case study modules and social proof were positioned strategically to reduce purchase anxiety and accelerate decision-making, ensuring every visit moved prospects one step closer to a conversation.",
-    solutionsLabel: "Solutions", solutionsHeading: "A website that converts trust into action.",
-    solutionsPara1: "The delivered site presents United Consulting as a premium advisory partner — not just a service provider. Clear service definitions, credibility signals, and friction-free contact flows work together to shorten the sales cycle.",
-    solutionsPara2: "The result is a digital presence that consistently converts qualified visitors into active pipeline opportunities, establishing United Consulting as the clear choice for organizations seeking strategic counsel.",
+    overviewHeading: "Making hotel operations feel effortless.",
+    overviewPara1: "Tracman was created to simplify the way hotels manage their operations and guests experience their stays through a clear, connected, and approachable digital platform. As hospitality continues to evolve, many hotels face the challenge of managing bookings, rooms, payments, and guest services across complex, disconnected systems.",
+    overviewPara2: "The experience was designed to support hotel administrators and guests by making everyday hospitality processes easier to understand and navigate without compromising the depth of functionality. Through a thoughtful interface, structured content, and intuitive workflows, Tracman helps hotel teams operate with greater confidence while giving guests a smoother, more seamless booking experience.",
+    client: "Tracman", duration: "8 months", industry: "Hospitality",
+    challengeLabel: "Challenge", challengeHeading: "Making hotel operations feel effortless.",
+    challengePara1: "Managing a hotel involves countless moving parts, from reservations and room assignments to guest services, payments, and day-to-day operations. When these processes are spread across disconnected tools or difficult-to-navigate interfaces, hotel teams spend more time managing systems than serving guests.",
+    challengePara2: "The challenge was to redesign Tracman’s digital experience into a more intuitive and connected hospitality platform. The experience needed to support hotel administrators in managing their operations with confidence, while making the booking journey simple and seamless for guests.\n\nThe goal was to bring clarity to complex workflows, improve the relationship between hotel operations and guest experiences, and create a modern product that could scale as Tracman continued to grow.",
+    approachLabel: "Approach", approachHeading: "Clarity through connected experiences.",
+    approachPara1: "We focused on creating a clear and consistent experience across Tracman’s hotel admin platform and guest-facing mobile app. Through thoughtful information architecture, structured navigation, and intuitive interaction patterns, we made complex hotel workflows easier to understand and manage.",
+    approachPara2: "The hotel admin experience was designed to bring essential operations into one place, from dashboards and bookings to rooms, employees, services, analytics, and wallet management. On the guest side, we simplified the journey from discovering a hotel to making a reservation, managing bookings, and accessing essential account features.\n\nClean typography, clear visual hierarchy, and purposeful spacing helped reduce cognitive load, while consistent components and interaction patterns created a more cohesive experience across the platform. Every decision was made to help users move through their tasks with less friction and greater confidence.",
+    solutionsLabel: "Solutions", solutionsHeading: "A connected hospitality experience built for growth.",
+    solutionsPara1: "The final result is a modern hospitality platform that brings hotel operations and guest experiences together through a cohesive, scalable design system.\n\nThe redesigned hotel admin platform gives teams a clearer way to manage bookings, rooms, employees, services, payments, and performance, while the guest app provides a more intuitive way to discover hotels, make reservations, and manage their stays.",
+    solutionsPara2: "Beyond individual screens, the work established a consistent product experience across Tracman’s ecosystem, creating a foundation that supports new features, future integrations, and the continued growth of the platform.\n\nThe outcome is a more approachable and efficient digital experience that helps hotels operate with confidence and gives guests a smoother, more connected booking journey.",
     galleryImg: imgDetailGallery, challengeImg0: imgDetailChallenge0, challengeImg1: imgDetailChallenge1, approachImg0: imgDetailApproach0, approachImg1: imgDetailApproach1, solutionsImg: imgDetailSolutions
   },
   {
