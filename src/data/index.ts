@@ -15,13 +15,12 @@ import imgProject2 from "../assets/LandingPage-1/ffb771fc96528e8e1e06b15675a3777
 import imgProject3 from "../assets/LandingPage-1/8667165634c9636b348d82e7aa956251cdf94654.png";
 import imgWorksAssure from "../assets/GeneralWorksPage/e8aae7b65f47cce826c8aa0cd63d52507e152b75.png";
 import imgWorksReunion from "../assets/GeneralWorksPage/ee9ca2f711e5713c9109e8a7486e20bd528cfa2c.png";
-import imgWorksTracman from "../assets/Works/tracman_new.png";
+import imgWorksTracman from "../assets/Works/tracman_mockup.png";
 import imgAvatar0 from "../assets/LandingPage-1/cdd0e239cdc4f711bd9f452f8d8dca4dabd17547.png";
 import imgAvatar1 from "../assets/LandingPage-1/6259054dfd21c8de11534318ab98596ddbd7729a.png";
 import imgAvatar2 from "../assets/LandingPage-1/44f054b7349d5a1b263a57682db79a056ab3bf06.png";
 import imgAvatar3 from "../assets/LandingPage-1/a0f4159ae4f1c2a43e33e223d4ce1e8e3362104a.png";
 import imgAvatar4 from "../assets/LandingPage-1/eddc1f0a2f48f3cbb303c29ff073fe5507046f7e.png";
-
 
 import imgDetailGallery from "../assets/DetailedWorkPage/244f3962b9fc6f941659e4efbd5a7f61144c979e.png";
 import imgDetailChallenge0 from "../assets/DetailedWorkPage/f4d2aca7d035bba4932f77c89ee49e57d77beec7.png";
@@ -31,82 +30,229 @@ import imgDetailApproach1 from "../assets/DetailedWorkPage/1f45238c171fa2a42c04e
 import imgDetailSolutions from "../assets/DetailedWorkPage/1c6af93d23c05f5dae812e8e5b808c496edb2bbe.png";
 
 export const logoImages = [
-  imgLogoRaw0, imgLogoRaw1, imgLogoRaw2, imgLogoRaw3, imgLogoRaw4,
-  imgLogoRaw5, imgLogoRaw6, imgLogoRaw7, imgLogoRaw8, imgLogoRaw9,
+  imgLogoRaw0,
+  imgLogoRaw1,
+  imgLogoRaw2,
+  imgLogoRaw3,
+  imgLogoRaw4,
+  imgLogoRaw5,
+  imgLogoRaw6,
+  imgLogoRaw7,
+  imgLogoRaw8,
+  imgLogoRaw9,
 ];
 
 export const serviceCategories = [
   {
     name: "Identity",
-    description: "Build a distinctive brand that communicates your vision, earns trust, and creates lasting recognition.",
-    items: ["Brand Strategy", "Logo Design", "Visual Identity", "Brand Guidelines", "Brand Assets"],
+    description:
+      "Build a distinctive brand that communicates your vision, earns trust, and creates lasting recognition.",
+    items: [
+      "Brand Strategy",
+      "Logo Design",
+      "Visual Identity",
+      "Brand Guidelines",
+      "Brand Assets",
+    ],
     bg: "#0f0d0b",
   },
   {
     name: "Product",
-    description: "Create intuitive digital products that balance user needs, business goals, and exceptional experiences.",
-    items: ["UX Design", "UI Design", "Mobile App Design", "Web App Design", "Prototypes"],
+    description:
+      "Create intuitive digital products that balance user needs, business goals, and exceptional experiences.",
+    items: [
+      "UX Design",
+      "UI Design",
+      "Mobile App Design",
+      "Web App Design",
+      "Prototypes",
+    ],
     bg: "#161412",
   },
   {
     name: "Website",
-    description: "Design modern, high-performing websites that tell your story and convert visitors into customers.",
-    items: ["Websites", "Landing Pages", "CMS Websites", "Responsive Design", "SEO-ready Layouts"],
+    description:
+      "Design modern, high-performing websites that tell your story and convert visitors into customers.",
+    items: [
+      "Websites",
+      "Landing Pages",
+      "CMS Websites",
+      "Responsive Design",
+      "SEO-ready Layouts",
+    ],
     bg: "#0f0d0b",
   },
   {
     name: "Development",
-    description: "Bring designs to life with fast, responsive websites built for performance and scalability.",
-    items: ["Website Development", "Mobile App Development", "Landing Pages", "Enterprise Grade Software", "API Integrations"],
+    description:
+      "Bring designs to life with fast, responsive websites built for performance and scalability.",
+    items: [
+      "Website Development",
+      "Mobile App Development",
+      "Landing Pages",
+      "Enterprise Grade Software",
+      "API Integrations",
+    ],
     bg: "#161412",
-  },
-  {
-    name: "Systems",
-    description: "Build scalable design systems that keep your product consistent, efficient, and ready for future growth.",
-    items: ["Component Libraries", "Design Tokens", "UI Guidelines", "Documentation", "Maintenance"],
-    bg: "#0f0d0b",
   },
 ];
 
 export const projects = [
-  { img: imgProject0, title: "Assure (AI SaaS)", subtitle: "Building trust for an AI-first platform.", tags: ["AI", "SaaS", "Identity"] },
-  { img: imgWorksTracman, title: "Tracman", subtitle: "Making hotel operations feel effortless.", tags: ["Product", "Hospitality"], bgColor: "#FB7637", containImg: true },
-  { img: imgProject2, title: "Crestmark", subtitle: "An institutional identity for modern investment firms.", tags: ["Identity", "Finance"] },
-  { img: imgProject3, title: "Ability", subtitle: "Designing healthcare with confidence.", tags: ["Healthcare", "Product"] },
+  {
+    img: imgProject0,
+    title: "HABEEP",
+    subtitle: "Making real estate operations feel effortless.",
+    tags: ["Real Estate", "Product"],
+  },
+  {
+    img: imgWorksTracman,
+    title: "Tracman",
+    subtitle: "Making hotel operations feel effortless.",
+    tags: ["Product", "Hospitality"],
+  },
+  {
+    img: imgProject2,
+    title: "FLYRINZO",
+    subtitle: "Making social media growth feel effortless.",
+    tags: ["AI", "Social Media", "SaaS"],
+  },
+  {
+    img: imgProject3,
+    title: "TRACLET",
+    subtitle: "Making shortlet stays feel simple and seamless.",
+    tags: ["Product", "Hospitality"],
+  },
 ];
 
 export const allProjects = [
-  { img: imgWorksAssure, title: "Assure (AI SaaS)", subtitle: "Building trust for an AI-first platform.", tags: ["AI", "SaaS", "Identity"] },
-  { img: imgWorksTracman, title: "Tracman", subtitle: "Making hotel operations feel effortless.", tags: ["Product", "Hospitality"], bgColor: "#FB7637", containImg: true },
-  { img: imgProject2, title: "Crestmark", subtitle: "An institutional identity for modern investment firms.", tags: ["Identity", "Finance"] },
-  { img: imgProject3, title: "Ability", subtitle: "Designing healthcare with confidence.", tags: ["Healthcare", "Product"] },
-  { img: imgWorksReunion, title: "Reunion", subtitle: "Creating excitement before the event begins.", tags: ["Event", "Brand"] },
+  {
+    img: imgWorksAssure,
+    title: "HABEEP",
+    subtitle: "Making real estate operations feel effortless.",
+    tags: ["Real Estate", "Product"],
+  },
+  {
+    img: imgWorksTracman,
+    title: "Tracman",
+    subtitle: "Making hotel operations feel effortless.",
+    tags: ["Product", "Hospitality"],
+  },
+  {
+    img: imgProject2,
+    title: "FLYRINZO",
+    subtitle: "Making social media growth feel effortless.",
+    tags: ["AI", "Social Media", "SaaS"],
+  },
+  {
+    img: imgProject3,
+    title: "TRACLET",
+    subtitle: "Making shortlet stays feel simple and seamless.",
+    tags: ["Product", "Hospitality"],
+  },
+  {
+    img: imgWorksReunion,
+    title: "LOVEVILLE",
+    subtitle: "Designing a digital experience for a community-driven event.",
+    tags: ["Events", "Community"],
+  },
 ];
 
 export const whyIcons = [
-  { bg: worksSvg.p2917de00, fg: worksSvg.p186b1f80, viewBox: "0 0 23.9947 21.996" },
-  { bg: worksSvg.p1b056e00, fg: worksSvg.p1cc9f280, viewBox: "0 0 27.9923 24.9939" },
-  { bg: worksSvg.p97bd3c0,  fg: worksSvg.p3f1ebcc0, viewBox: "0 0 28.998 28.998" },
-  { bg: worksSvg.p247c1000, fg: worksSvg.p3701200,  viewBox: "0 0 27.9937 17.9962" },
-  { bg: worksSvg.p2ad56480, fg: worksSvg.p769680,   viewBox: "0 0 31.9884 21.9924" },
-  { bg: worksSvg.p11f07380, fg: worksSvg.p2dc5fb00, viewBox: "0 0 29.9927 19.9951" },
+  {
+    bg: worksSvg.p2917de00,
+    fg: worksSvg.p186b1f80,
+    viewBox: "0 0 23.9947 21.996",
+  },
+  {
+    bg: worksSvg.p1b056e00,
+    fg: worksSvg.p1cc9f280,
+    viewBox: "0 0 27.9923 24.9939",
+  },
+  {
+    bg: worksSvg.p97bd3c0,
+    fg: worksSvg.p3f1ebcc0,
+    viewBox: "0 0 28.998 28.998",
+  },
+  {
+    bg: worksSvg.p247c1000,
+    fg: worksSvg.p3701200,
+    viewBox: "0 0 27.9937 17.9962",
+  },
+  {
+    bg: worksSvg.p2ad56480,
+    fg: worksSvg.p769680,
+    viewBox: "0 0 31.9884 21.9924",
+  },
+  {
+    bg: worksSvg.p11f07380,
+    fg: worksSvg.p2dc5fb00,
+    viewBox: "0 0 29.9927 19.9951",
+  },
 ];
 
 export const whyCards = [
-  { title: "Startup Focused", body: "We design for ambitious startups, helping founders launch and grow." },
-  { title: "Strategy First", body: "Every decision is guided by your goals, users, and long-term vision." },
-  { title: "Thoughtful Craft", body: "Every detail is refined to create meaningful experiences." },
-  { title: "Built to Scale", body: "We create flexible solutions that grow alongside your business." },
-  { title: "Collaborative Process", body: "We work closely with your team through every stage of the project." },
-  { title: "Long-Term Partnership", body: "We're here to support your business long after launch." },
+  {
+    title: "Startup Focused",
+    body: "We design for ambitious startups, helping founders launch and grow.",
+  },
+  {
+    title: "Strategy First",
+    body: "Every decision is guided by your goals, users, and long-term vision.",
+  },
+  {
+    title: "Thoughtful Craft",
+    body: "Every detail is refined to create meaningful experiences.",
+  },
+  {
+    title: "Built to Scale",
+    body: "We create flexible solutions that grow alongside your business.",
+  },
+  {
+    title: "Collaborative Process",
+    body: "We work closely with your team through every stage of the project.",
+  },
+  {
+    title: "Long-Term Partnership",
+    body: "We're here to support your business long after launch.",
+  },
 ];
 
 export const testimonials = [
-  { quote: "They ask the right questions, challenge assumptions, and build experiences that actually work for users.", name: "Sarah Mitchell", company: "Nova Labs", avatar: imgAvatar0 },
-  { quote: "PrimeWavee delivered exceptional work with remarkable attention to detail. Every pixel was considered.", name: "Daniel Kim", company: "Horizon", avatar: imgAvatar1 },
-  { quote: "They quickly understood our vision and transformed it into a brand that feels genuinely ours.", name: "Olivia Nestl", company: "Elevate", avatar: imgAvatar2 },
-  { quote: "Working with PrimeWavee felt like adding an experienced design team to our startup overnight.", name: "James Walker", company: "Vertex", avatar: imgAvatar3 },
-  { quote: "It's fast, beautifully crafted, and perfectly reflects our brand. We couldn't be happier.", name: "Sophia Raci", company: "BrightFlow", avatar: imgAvatar4 },
+  {
+    quote:
+      "They ask the right questions, challenge assumptions, and build experiences that actually work for users.",
+    name: "Sarah Mitchell",
+    company: "Nova Labs",
+    avatar: imgAvatar0,
+  },
+  {
+    quote:
+      "PrimeWavee delivered exceptional work with remarkable attention to detail. Every pixel was considered.",
+    name: "Daniel Kim",
+    company: "Horizon",
+    avatar: imgAvatar1,
+  },
+  {
+    quote:
+      "They quickly understood our vision and transformed it into a brand that feels genuinely ours.",
+    name: "Olivia Nestl",
+    company: "Elevate",
+    avatar: imgAvatar2,
+  },
+  {
+    quote:
+      "Working with PrimeWavee felt like adding an experienced design team to our startup overnight.",
+    name: "James Walker",
+    company: "Vertex",
+    avatar: imgAvatar3,
+  },
+  {
+    quote:
+      "It's fast, beautifully crafted, and perfectly reflects our brand. We couldn't be happier.",
+    name: "Sophia Raci",
+    company: "BrightFlow",
+    avatar: imgAvatar4,
+  },
 ];
 
 export type ProjectDetail = {
@@ -138,83 +284,176 @@ export type ProjectDetail = {
 
 export const projectDetails: ProjectDetail[] = [
   {
-    overviewHeading: "Building trust for an AI-first platform.",
-    overviewPara1: "Assure was created to help AI startups communicate and present complex technologies through a clear, modern, and approachable digital experience. As AI continues to transform industries, many companies face the challenge of explaining advanced solutions in a way that feels both innovative and trustworthy.",
-    overviewPara2: "The experience was designed to support founders, investors, and enterprise customers by making complex concepts easier to understand without losing their technical depth. Through a thoughtful interface, structured content, and intuitive navigation, Assure helps users quickly recognize the value of AI solutions while building trust in the brands behind them.",
-    client: "Assure AI", duration: "3 Weeks", industry: "Artificial Intelligence",
-    challengeLabel: "Challenge", challengeHeading: "Making AI feel approachable.",
-    challengePara1: "Many AI products overwhelm visitors with technical jargon, complex messaging, and generic, template-like interfaces that make it difficult to understand what the product actually does or why it matters. Instead of creating clarity, these experiences often leave users feeling confused or disconnected.",
-    challengePara2: "The challenge was to design a brand identity and website that communicated intelligence, simplicity, and trust from the very first interaction. The experience needed to make advanced technology feel approachable while maintaining a distinctive personality, balancing professionalism with warmth to create a memorable and engaging first impression.",
-    approachLabel: "Approach", approachHeading: "Clarity through thoughtful design.",
-    approachPara1: "We focused on creating a clear and intentional content hierarchy that helps users quickly understand the product and navigate the experience with ease. Clean, modern typography improves readability, while thoughtful spacing and visual balance reduce cognitive load and keep the interface approachable.",
-    approachPara2: "Subtle animations and micro-interactions provide feedback and guide attention without becoming distracting, creating a smooth and engaging browsing experience. Every section was carefully designed to reinforce credibility, build user confidence, and improve comprehension.",
-    solutionsLabel: "Solutions", solutionsHeading: "A modern SaaS experience built for growth.",
-    solutionsPara1: "The final result combines a premium visual identity with a strategic, conversion-focused website that balances aesthetics with usability. Every page is designed to clearly communicate the product's value, build trust through thoughtful design, and guide visitors toward meaningful actions.",
-    solutionsPara2: "The cohesive brand system ensures consistency across every touchpoint, while the flexible layout supports future growth as the company evolves. The outcome is a modern digital experience that helps emerging AI companies stand out, attract the right customers, and scale with confidence.",
-    galleryImg: imgDetailGallery, challengeImg0: imgDetailChallenge0, challengeImg1: imgDetailChallenge1, approachImg0: imgDetailApproach0, approachImg1: imgDetailApproach1, solutionsImg: imgDetailSolutions
+    overviewHeading: "Making real estate operations feel effortless.",
+    overviewPara1:
+      "Habeep was established to transform how users search, oversee, and engage with modern housing through an approachable digital product. As real estate markets evolve, buyers, property managers, and owners frequently navigate fragmented tools when locating listings, handling leases, coordinating payments, and keeping touchpoints active.",
+    overviewPara2:
+      "The system consolidates these touchpoints while ensuring daily property tasks remain easy to navigate. Through structured information architecture, intentional content design, and intuitive interaction patterns, Habeep empowers seekers to locate homes with heightened certainty while furnishing brokers and owners with robust operational management utilities.\n\nThe software broadens capability past search functions by integrating core monetary tools including account wallets, lease savings plans, transaction tracking, and housing financial utilities delivering a comprehensive digital ecosystem around residential living.",
+    client: "Habeep",
+    duration: "6 months",
+    industry: "Real Estate",
+    challengeLabel: "Challenge",
+    challengeHeading: "Making real estate management feel effortless.",
+    challengePara1:
+      "Securing and maintaining living spaces involves complex moving parts, from discovering suitable properties and messaging representatives to listing units, settling rent, processing payments, and tracking lease records. When these tasks depend on disconnected tools or complex user interfaces, stakeholders waste substantial effort operating platforms instead of focusing on securing homes.",
+    challengePara2:
+      "The primary task was redesigning Habeep into an intuitive, unified property environment catering to buyers, brokers, and landlords alike. The application needed to make housing discovery straightforward while granting agents full control over portfolios and equipping owners to handle units and tenants smoothly.\n\nThe primary goal centered on bringing order to residential workflows, removing operational roadblocks, and establishing an adaptable product framework as Habeep expanded its real estate, payment, and financial offerings.",
+    approachLabel: "Approach",
+    approachHeading: "Clarity through connected experiences.",
+    approachPara1:
+      "We prioritized establishing a seamless, consistent user experience across Habeep’s distinct operational journeys. By refining information architecture, organizing navigation, and deploying clear interaction patterns, complex property tasks became simple to understand and operate.\n\nThe search interface centers on effortless discovery, guiding individuals as they view listings, reach out to brokers, manage applications, and access integrated financial tools. For agents, the platform consolidates listing workflows, making it easier to publish availability, track performance metrics, and handle client inquiries.",
+    approachPara2:
+      "The landlord environment unifies core property operations onto a single dashboard, housing everything from complex management and unit allocation to tenant assignment, lease tracking, and direct resident communication.\n\nClean typography, explicit visual hierarchy, deliberate spacing, and uniform components created a balanced digital ecosystem. Every design decision aimed to minimize operational friction, ensuring users execute critical actions with total clarity and confidence.",
+    solutionsLabel: "Solutions",
+    solutionsHeading: "A connected real estate experience built for growth.",
+    solutionsPara1:
+      "The finished product delivers a modern proptech platform that unites home discovery, property management, messaging, and financial utilities within a cohesive architectural design.\n\nThe updated Habeep suite offers seekers an intuitive pathway to explore properties and direct their housing goals, while equipping representatives with structured methods to publish availability, track listings, and connect with active prospects.",
+    solutionsPara2:
+      "For property owners, the system delivers complete tools to handle buildings, individual units, resident profiles, and collection schedules through one connected application. Monetary capabilities like digital wallets, automated rent savings, transaction processing, and tenant services extend utility beyond baseline property discovery.\n\nBeyond individual views, the project established a scalable product framework across Habeep’s software family, building an adaptable foundation to accommodate upcoming features, system integrations, and long-term platform expansion.\n\nThe outcome provides an accessible, connected real estate environment that allows users to navigate residential tasks smoothly while supplying housing professionals with robust tools to scale operations.",
+    galleryImg: imgDetailGallery,
+    challengeImg0: imgDetailChallenge0,
+    challengeImg1: imgDetailChallenge1,
+    approachImg0: imgDetailApproach0,
+    approachImg1: imgDetailApproach1,
+    solutionsImg: imgDetailSolutions,
   },
   {
     overviewHeading: "Making hotel operations feel effortless.",
-    overviewPara1: "Tracman was created to simplify the way hotels manage their operations and guests experience their stays through a clear, connected, and approachable digital platform. As hospitality continues to evolve, many hotels face the challenge of managing bookings, rooms, payments, and guest services across complex, disconnected systems.",
-    overviewPara2: "The experience was designed to support hotel administrators and guests by making everyday hospitality processes easier to understand and navigate without compromising the depth of functionality. Through a thoughtful interface, structured content, and intuitive workflows, Tracman helps hotel teams operate with greater confidence while giving guests a smoother, more seamless booking experience.",
-    client: "Tracman", duration: "8 months", industry: "Hospitality",
-    challengeLabel: "Challenge", challengeHeading: "Making hotel operations feel effortless.",
-    challengePara1: "Managing a hotel involves countless moving parts, from reservations and room assignments to guest services, payments, and day-to-day operations. When these processes are spread across disconnected tools or difficult-to-navigate interfaces, hotel teams spend more time managing systems than serving guests.",
-    challengePara2: "The challenge was to redesign Tracman’s digital experience into a more intuitive and connected hospitality platform. The experience needed to support hotel administrators in managing their operations with confidence, while making the booking journey simple and seamless for guests.\n\nThe goal was to bring clarity to complex workflows, improve the relationship between hotel operations and guest experiences, and create a modern product that could scale as Tracman continued to grow.",
-    approachLabel: "Approach", approachHeading: "Clarity through connected experiences.",
-    approachPara1: "We focused on creating a clear and consistent experience across Tracman’s hotel admin platform and guest-facing mobile app. Through thoughtful information architecture, structured navigation, and intuitive interaction patterns, we made complex hotel workflows easier to understand and manage.",
-    approachPara2: "The hotel admin experience was designed to bring essential operations into one place, from dashboards and bookings to rooms, employees, services, analytics, and wallet management. On the guest side, we simplified the journey from discovering a hotel to making a reservation, managing bookings, and accessing essential account features.\n\nClean typography, clear visual hierarchy, and purposeful spacing helped reduce cognitive load, while consistent components and interaction patterns created a more cohesive experience across the platform. Every decision was made to help users move through their tasks with less friction and greater confidence.",
-    solutionsLabel: "Solutions", solutionsHeading: "A connected hospitality experience built for growth.",
-    solutionsPara1: "The final result is a modern hospitality platform that brings hotel operations and guest experiences together through a cohesive, scalable design system.\n\nThe redesigned hotel admin platform gives teams a clearer way to manage bookings, rooms, employees, services, payments, and performance, while the guest app provides a more intuitive way to discover hotels, make reservations, and manage their stays.",
-    solutionsPara2: "Beyond individual screens, the work established a consistent product experience across Tracman’s ecosystem, creating a foundation that supports new features, future integrations, and the continued growth of the platform.\n\nThe outcome is a more approachable and efficient digital experience that helps hotels operate with confidence and gives guests a smoother, more connected booking journey.",
-    galleryImg: imgDetailGallery, challengeImg0: imgDetailChallenge0, challengeImg1: imgDetailChallenge1, approachImg0: imgDetailApproach0, approachImg1: imgDetailApproach1, solutionsImg: imgDetailSolutions
+    overviewPara1:
+      "Tracman was created to simplify the way hotels manage their operations and guests experience their stays through a clear, connected, and approachable digital platform. As hospitality continues to evolve, many hotels face the challenge of managing bookings, rooms, payments, and guest services across complex, disconnected systems.",
+    overviewPara2:
+      "The experience was designed to support hotel administrators and guests by making everyday hospitality processes easier to understand and navigate without compromising the depth of functionality. Through a thoughtful interface, structured content, and intuitive workflows, Tracman helps hotel teams operate with greater confidence while giving guests a smoother, more seamless booking experience.",
+    client: "Tracman",
+    duration: "8 months",
+    industry: "Hospitality",
+    challengeLabel: "Challenge",
+    challengeHeading: "Making hotel operations feel effortless.",
+    challengePara1:
+      "Managing a hotel involves countless moving parts, from reservations and room assignments to guest services, payments, and day-to-day operations. When these processes are spread across disconnected tools or difficult-to-navigate interfaces, hotel teams spend more time managing systems than serving guests.",
+    challengePara2:
+      "The challenge was to redesign Tracman’s digital experience into a more intuitive and connected hospitality platform. The experience needed to support hotel administrators in managing their operations with confidence, while making the booking journey simple and seamless for guests.\n\nThe goal was to bring clarity to complex workflows, improve the relationship between hotel operations and guest experiences, and create a modern product that could scale as Tracman continued to grow.",
+    approachLabel: "Approach",
+    approachHeading: "Clarity through connected experiences.",
+    approachPara1:
+      "We focused on creating a clear and consistent experience across Tracman’s hotel admin platform and guest-facing mobile app. Through thoughtful information architecture, structured navigation, and intuitive interaction patterns, we made complex hotel workflows easier to understand and manage.",
+    approachPara2:
+      "The hotel admin experience was designed to bring essential operations into one place, from dashboards and bookings to rooms, employees, services, analytics, and wallet management. On the guest side, we simplified the journey from discovering a hotel to making a reservation, managing bookings, and accessing essential account features.\n\nClean typography, clear visual hierarchy, and purposeful spacing helped reduce cognitive load, while consistent components and interaction patterns created a more cohesive experience across the platform. Every decision was made to help users move through their tasks with less friction and greater confidence.",
+    solutionsLabel: "Solutions",
+    solutionsHeading: "A connected hospitality experience built for growth.",
+    solutionsPara1:
+      "The final result is a modern hospitality platform that brings hotel operations and guest experiences together through a cohesive, scalable design system.\n\nThe redesigned hotel admin platform gives teams a clearer way to manage bookings, rooms, employees, services, payments, and performance, while the guest app provides a more intuitive way to discover hotels, make reservations, and manage their stays.",
+    solutionsPara2:
+      "Beyond individual screens, the work established a consistent product experience across Tracman’s ecosystem, creating a foundation that supports new features, future integrations, and the continued growth of the platform.\n\nThe outcome is a more approachable and efficient digital experience that helps hotels operate with confidence and gives guests a smoother, more connected booking journey.",
+    galleryImg: imgDetailGallery,
+    challengeImg0: imgDetailChallenge0,
+    challengeImg1: imgDetailChallenge1,
+    approachImg0: imgDetailApproach0,
+    approachImg1: imgDetailApproach1,
+    solutionsImg: imgDetailSolutions,
   },
   {
-    overviewHeading: "Defining a legacy brand for the digital age.",
-    overviewPara1: "Crestmark Capital required an identity system that honored its institutional heritage while signaling modern capability to a new generation of investors. The brief called for a brand that could operate across print, digital, and event contexts without losing coherence or gravitas.",
-    overviewPara2: "The design challenge was to balance timeless financial prestige with the clarity and accessibility that contemporary digital audiences expect — creating a system that felt both established and forward-thinking.",
-    client: "Crestmark Capital", duration: "6 Weeks", industry: "Finance & Investment",
-    challengeLabel: "Challenge", challengeHeading: "Balancing prestige with accessibility.",
-    challengePara1: "Heritage financial brands often rely on density and tradition as signals of credibility, but these same qualities can feel exclusionary and opaque to younger investors and digital-first audiences.",
-    challengePara2: "Crestmark needed an identity that maintained institutional authority while opening the door to a broader, more diverse investor base — without diluting the brand's core proposition or alienating its existing clientele.",
-    approachLabel: "Approach", approachHeading: "Identity rooted in institutional credibility.",
-    approachPara1: "We grounded the identity in a restrained typographic system and a carefully considered color palette that referenced traditional finance while applying contemporary proportions and digital-first spacing.",
-    approachPara2: "Every design decision was tested against both print and screen contexts to ensure the identity performed equally well across all brand touchpoints, from digital reports to physical signage.",
-    solutionsLabel: "Solutions", solutionsHeading: "A brand system that scales with growth.",
-    solutionsPara1: "The resulting identity system gives Crestmark Capital a distinctive, ownable presence across digital, print, and environmental contexts. A comprehensive guidelines document ensures consistency as the firm grows.",
-    solutionsPara2: "The flexible component library makes it easy to extend the system to new products, markets, and communications without requiring a full redesign — a brand built to compound in value over time.",
-    galleryImg: imgDetailGallery, challengeImg0: imgDetailChallenge0, challengeImg1: imgDetailChallenge1, approachImg0: imgDetailApproach0, approachImg1: imgDetailApproach1, solutionsImg: imgDetailSolutions
+    overviewHeading: "Making social media growth feel effortless.",
+    overviewPara1:
+      "Flyrinzo was created to simplify how organizations and online creators build their digital audience through an intuitive, connected platform. As digital marketing expands, many brands struggle to generate posts, manage multiple channels, coordinate publication schedules, and monitor engagement across fragmented software tools.",
+    overviewPara2:
+      "The system brings these key workflows together, ensuring brand management remains easy to navigate while offering powerful functionality. Through structured visual layouts, clear information design, and seamless automated workflows, Flyrinzo empowers users to draft, organize, release, and evaluate digital material confidently to scale their online presence.",
+    client: "Flyrinzo",
+    duration: "6 months",
+    industry: "AI / Social Media / SaaS",
+    challengeLabel: "Challenge",
+    challengeHeading: "Making social media management feel effortless.",
+    challengePara1:
+      "Overseeing digital channel channels involves numerous interconnected tasks, including drafting updates, setting publication calendars, managing user handles, distributing posts, conversing with audiences, and assessing performance metrics. When these operations rely on disparate programs or complex user interfaces, teams spend excessive effort navigating tools instead of expanding their reach.",
+    challengePara2:
+      "The core task was transforming Flyrinzo’s user interface into an accessible, unified marketing platform. The redesigned software needed to help creators handle accounts with complete clarity while streamlining content generation, calendar scheduling, delivery, and analytics.\n\nThe primary goal was introducing structure to multi-channel publishing workflows, removing operational roadblocks across networks, and building a scalable product framework capable of incorporating future automation enhancements.",
+    approachLabel: "Approach",
+    approachHeading: "Clarity through connected experiences.",
+    approachPara1:
+      "We prioritized establishing a unified user experience across Flyrinzo’s software environment. By refining information architecture, organizing navigational structures, and utilizing intuitive interface components, complex marketing processes became far simpler to operate.\n\nThe admin space consolidates core functionalities onto one unified dashboard, housing post creation, scheduling calendars, asset storage, design templates, community interaction tracking, performance metrics, and machine-learning utilities.",
+    approachPara2:
+      "The composition workspace simplifies moving from raw concepts to finalized posts, while intelligent scheduling routines make long-term calendar planning across linked social profiles frictionless.\n\nRefined typography, clear layout hierarchies, and deliberate vertical spacing help reduce cognitive effort, while standardized components deliver a balanced experience across the application. Every design decision aimed to minimize operational friction and increase user certainty.",
+    solutionsLabel: "Solutions",
+    solutionsHeading: "A connected social media experience built for growth.",
+    solutionsPara1:
+      "The finished product provides an advanced, AI-driven digital platform that unites asset production, distribution, scheduling, audience engagement, and performance reporting through a cohesive architectural design.\n\nThe updated Flyrinzo suite equips teams with transparent methods to produce media, link external accounts, organize release dates, curate file libraries, utilize premade graphics, cultivate fanbases, and measure overall impact.",
+    solutionsPara2:
+      "Machine-learning features expand capability beyond traditional publishing suites, guiding users as they write copy, build promotional flyers, spot audience trends, and refine strategic plans.\n\nBeyond standalone views, the project established a consistent brand system across Flyrinzo’s software family, creating an adaptable foundation to accommodate upcoming AI features, native platform additions, and expanding user demand.\n\nThe outcome delivers an accessible digital environment that allows organizations to guide online strategies smoothly while enjoying a seamless creation process.",
+    galleryImg: imgDetailGallery,
+    challengeImg0: imgDetailChallenge0,
+    challengeImg1: imgDetailChallenge1,
+    approachImg0: imgDetailApproach0,
+    approachImg1: imgDetailApproach1,
+    solutionsImg: imgDetailSolutions,
   },
   {
-    overviewHeading: "Healthcare design that puts people first.",
-    overviewPara1: "Ability Health approached us to redesign their patient-facing digital platform. The existing product was technically functional but emotionally cold — structured around clinical workflows rather than the anxious, often overwhelmed people who actually used it. Trust was eroding and engagement was declining.",
-    overviewPara2: "Our mandate was to rebuild the experience around human empathy: making critical health information accessible, interactions feel supportive, and the overall product worthy of the trust patients were placing in it during vulnerable moments.",
-    client: "Ability Health", duration: "5 Weeks", industry: "Healthcare",
-    challengeLabel: "Challenge", challengeHeading: "Making healthcare feel human again.",
-    challengePara1: "Digital health products frequently prioritize compliance and data architecture over the emotional reality of their users. Patients navigating health information are often scared, time-pressured, and not medically literate — yet most platforms design for the exception rather than the rule.",
-    challengePara2: "The challenge was to redesign Ability's product so that clarity, warmth, and confidence replaced confusion and clinical detachment — creating an experience worthy of the trust patients place in it during vulnerable moments.",
-    approachLabel: "Approach", approachHeading: "Empathy-driven design decisions.",
-    approachPara1: "We conducted extensive user research sessions with patients across different demographics and health literacy levels, identifying the specific moments where the existing product caused the most friction and anxiety.",
-    approachPara2: "These insights drove every significant design decision — from the language used in UI labels to the pacing of onboarding flows and the way health data was visualized — ensuring every interaction felt supportive rather than clinical.",
-    solutionsLabel: "Solutions", solutionsHeading: "A platform that inspires confidence and care.",
-    solutionsPara1: "The redesigned Ability platform reduced time-to-task for core patient journeys by a significant margin while measurably improving satisfaction scores. Warm, accessible typography and human photography transformed the emotional tone.",
-    solutionsPara2: "A carefully sequenced information architecture ensured patients could find what they needed quickly and confidently. The result is a product that people trust — and return to — during the moments that matter most.",
-    galleryImg: imgDetailGallery, challengeImg0: imgDetailChallenge0, challengeImg1: imgDetailChallenge1, approachImg0: imgDetailApproach0, approachImg1: imgDetailApproach1, solutionsImg: imgDetailSolutions
+    overviewHeading: "Making shortlet stays feel simple and seamless.",
+    overviewPara1:
+      "Traclet was created to make discovering, booking, and managing shortlet stays feel easier for both guests and property hosts. As the shortlet and hospitality space continues to grow, users often have to navigate fragmented experiences when searching for apartments, managing bookings, making payments, and accessing additional services.",
+    overviewPara2:
+      "The experience was designed to bring these interactions together through a clear, connected, and approachable digital platform. Traclet supports guests in finding and booking spaces with confidence while giving hosts the tools they need to manage listings, bookings, payments, and their hospitality operations more efficiently.\n\nThrough a thoughtful interface, structured content, and intuitive workflows, Traclet creates a smoother experience across the entire shortlet journey, from discovering a space to completing a stay.",
+    client: "Traclet",
+    duration: "8 months",
+    industry: "Hospitality",
+    challengeLabel: "Challenge",
+    challengeHeading: "Making shortlet experiences feel effortless.",
+    challengePara1:
+      "Finding and managing a shortlet involves multiple moving parts, from discovering suitable spaces and making reservations to handling payments, communication, check-ins, and additional services. When these experiences are fragmented or difficult to navigate, both guests and hosts can spend more time managing processes than enjoying the experience itself.",
+    challengePara2:
+      "The challenge was to design Traclet as a more intuitive and connected shortlet platform that could serve the different needs of guests, hosts, and service providers. The experience needed to make property discovery and booking simple for guests while giving hosts greater control over their listings, bookings, finances, and day-to-day operations.\n\nThe goal was to bring clarity to the shortlet experience, reduce friction across key workflows, and create a modern hospitality product that could scale as Traclet expanded into services, payments, smart access, referrals, and other connected experiences.",
+    approachLabel: "Approach",
+    approachHeading: "Clarity through connected experiences.",
+    approachPara1:
+      "We focused on creating a clear and consistent experience across Traclet’s guest, host, and service-provider experiences. Through thoughtful information architecture, structured navigation, and intuitive interaction patterns, we made complex hospitality workflows easier to understand and manage.\n\nThe guest experience was designed to simplify the journey from discovering a property to making a booking, managing reservations, communicating with hosts, accessing services, and completing a stay.",
+    approachPara2:
+      "For hosts, the platform brings essential operations into one place, from listing management and booking requests to calendars, services, wallet and transaction management, analytics, and property operations.\n\nService providers were given a focused experience for managing their services, receiving bookings, tracking earnings, and delivering experiences to guests.\n\nClean typography, clear visual hierarchy, purposeful spacing, and consistent interaction patterns helped create a cohesive experience across the ecosystem. Each workflow was designed around reducing friction, providing users with the right information at the right time, and helping them complete tasks with greater confidence.",
+    solutionsLabel: "Solution",
+    solutionsHeading:
+      "A connected hospitality experience built for every journey.",
+    solutionsPara1:
+      "The final result is a modern shortlet platform that connects guests, hosts, properties, and service providers through a cohesive and scalable digital experience.",
+    solutionsPara2:
+      "The redesigned guest experience provides a more intuitive way to discover properties, make reservations, manage bookings, access services, and navigate the different stages of a stay.\n\nThe host experience gives property owners a clearer way to manage listings, bookings, calendars, payments, transactions, services, analytics, and other essential operations from one connected platform.",
+    galleryImg: imgDetailGallery,
+    challengeImg0: imgDetailChallenge0,
+    challengeImg1: imgDetailChallenge1,
+    approachImg0: imgDetailApproach0,
+    approachImg1: imgDetailApproach1,
+    solutionsImg: imgDetailSolutions,
   },
   {
-    overviewHeading: "Building anticipation before the doors open.",
-    overviewPara1: "Reunion 2026 is an AI-focused creative conference bringing together thinkers, innovators, and makers for a landmark annual gathering. The event needed a digital presence that matched the ambition of its programming — bold, memorable, and magnetic enough to drive early ticket sales before a single speaker was announced.",
-    overviewPara2: "The challenge was to generate genuine excitement and urgency through design alone, creating an experience that made prospective attendees feel that missing Reunion would mean missing a cultural moment.",
-    client: "Reunion Event Co.", duration: "2 Weeks", industry: "Events & Entertainment",
-    challengeLabel: "Challenge", challengeHeading: "Creating momentum before launch day.",
-    challengePara1: "Event marketing is uniquely time-pressured: you need to generate demand before the full content programme is confirmed, sell tickets to an audience that hasn't yet experienced the event, and build a brand identity from scratch in record time.",
-    challengePara2: "The digital presence needed to do the heavy lifting months before the doors opened — generating genuine excitement and urgency through design alone, making prospective attendees feel that missing Reunion would mean missing a cultural moment.",
-    approachLabel: "Approach", approachHeading: "Bold visuals that demand attention.",
-    approachPara1: "We anchored the Reunion identity in high-contrast, typographically bold design language that communicated scale and importance from the first pixel. An editorial-style layout combined with a confident color story created immediate impact.",
-    approachPara2: "Every section was engineered to drive the single most important action — claiming a ticket — creating the sense that Reunion was already an institution, even at its inaugural edition.",
-    solutionsLabel: "Solutions", solutionsHeading: "An event experience that starts online.",
-    solutionsPara1: "The Reunion website delivered exceptional pre-launch conversion rates, with early-access ticket tiers selling out significantly ahead of schedule. The brand extended seamlessly across social, email, and physical venue materials.",
-    solutionsPara2: "A cohesive world of touchpoints built anticipation at every stage of the journey. Reunion established itself as a signature event before a single attendee had walked through the door.",
-    galleryImg: imgDetailGallery, challengeImg0: imgDetailChallenge0, challengeImg1: imgDetailChallenge1, approachImg0: imgDetailApproach0, approachImg1: imgDetailApproach1, solutionsImg: imgDetailSolutions
-  }
+    overviewHeading:
+      "Designing a digital experience for a community-driven event.",
+    overviewPara1:
+      "Loveville was established to unite friends, families, and neighbors through an all-day festival centered on shared culture, active play, personal connection, and local opportunity. As an expansive picnic-style gathering, the event connects live entertainment, culinary offerings, games, cultural programming, and regional businesses within a single environment.",
+    overviewPara2:
+      "The platform was designed to help attendees understand the festival's mission, explore available attractions, and review vital details prior to arrival. The core challenge involved capturing the vibrant energy and warm atmosphere of the live gathering while establishing a clear, accessible product for diverse guest groups—including adults, families, youth, performers, merchants, and corporate partners.\n\nThrough structured information architecture, intentional visual design, and organized content layouts, the application delivers a cohesive experience that reflects Loveville's distinct spirit while simplifying event discovery, understanding, and direct participation.",
+    client: "Loveville",
+    duration: "8 weeks",
+    industry: "Events / Community",
+    challengeLabel: "Challenge",
+    challengeHeading:
+      "Turning a diverse festival into an approachable product.",
+    challengePara1:
+      "A multi-faceted gathering like Loveville unites numerous distinct attractions, visitor profiles, and scheduled activities. Communicating family programming, youth zones, live performances, cultural showcases, food vendors, and commercial partner options required sharing extensive details without causing cognitive overload.",
+    challengePara2:
+      "The objective was constructing an adaptable interface that consolidated these varied components into an exciting, orderly, and intuitive digital environment. The site needed to serve unique user segments while retaining a unified brand experience across every touchpoint.\n\nThe primary goal centered on helping guests evaluate Loveville's offerings, discover relevant activities, review scheduling details, and complete registration or pass purchases effortlessly.",
+    approachLabel: "Approach",
+    approachHeading: "Clarity through intent-driven storytelling.",
+    approachPara1:
+      "We prioritized establishing a clean interface hierarchy that enables visitors to grasp the festival's purpose immediately while navigating deeper details at their own pace. By refining information design, building audience-specific views, and implementing intuitive interaction patterns, workflows were organized around user intent.\n\nThe core structure was mapped directly to Loveville's four primary thematic pillars: Connection, Culture, Play, and Opportunity. These foundational values guided both content organization and messaging across the broader ecosystem.",
+    approachPara2:
+      "Tailored sections were created for adult attendees, families, kids, artists, cultural partners, vendors, and corporate sponsors, allowing each user group to access target details swiftly without losing context of the overall gathering.\n\nClear visual hierarchies, structured layout blocks, prominent calls to action, and deliberate spacing helped balance dense information throughout the site. The interface maintained an energetic, welcoming tone while keeping functional interactions straightforward and accessible.\n\nEvery design decision aimed to streamline complex event logistics into an engaging attendee journey—steering visitors from initial discovery to full comprehension and final event participation.",
+    solutionsLabel: "Solutions",
+    solutionsHeading: "A connected digital platform built around community.",
+    solutionsPara1:
+      "The finished product delivers a vibrant, structured digital platform that connects the various aspects of Loveville into a unified user experience.\n\nThe redesigned application equips guests with clear methods to discover the event, grasp its mission, explore scheduled attractions, and find activities tailored to adults, families, or youth. Dedicated operational paths also support performers, merchants, and sponsors by outlining involvement criteria clearly.",
+    solutionsPara2:
+      "Beyond individual screens, the work established a consistent design and content system that reinforces Loveville's identity while simplifying complex event details across the application.\n\nThe outcome provides an accessible, engaging digital companion that captures the live spirit of the festival, giving visitors complete clarity as they plan attendance, connect with others, and join the community.",
+    galleryImg: imgDetailGallery,
+    challengeImg0: imgDetailChallenge0,
+    challengeImg1: imgDetailChallenge1,
+    approachImg0: imgDetailApproach0,
+    approachImg1: imgDetailApproach1,
+    solutionsImg: imgDetailSolutions,
+  },
 ];
