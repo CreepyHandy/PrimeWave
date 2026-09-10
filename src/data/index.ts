@@ -9,12 +9,10 @@ import imgLogoRaw6 from "../assets/LandingPage-1/e1804ef700b6db16935e04f2c8b89be
 import imgLogoRaw7 from "../assets/LandingPage-1/9638b2612f3831c1eb6d25141002a300eac9f62f.png";
 import imgLogoRaw8 from "../assets/LandingPage-1/6db5984718016aa8f33ee44ea7184271f59fe802.png";
 import imgLogoRaw9 from "../assets/LandingPage-1/ebca9812717d7de0f182c515bcebabc8c1e3af68.png";
-import imgProject0 from "../assets/LandingPage-1/e77f1cc99e48fe30a1ff5456759350474c49385f.png";
-import imgProject1 from "../assets/LandingPage-1/b3455181d69bdb79bfe522c0054d4159d6771078.png";
-import imgProject2 from "../assets/LandingPage-1/ffb771fc96528e8e1e06b15675a3777cf2a656ea.png";
-import imgProject3 from "../assets/LandingPage-1/8667165634c9636b348d82e7aa956251cdf94654.png";
-import imgWorksAssure from "../assets/GeneralWorksPage/e8aae7b65f47cce826c8aa0cd63d52507e152b75.png";
-import imgWorksReunion from "../assets/GeneralWorksPage/ee9ca2f711e5713c9109e8a7486e20bd528cfa2c.png";
+import imgProject0 from "../assets/Works/habeep.png";
+import imgProject2 from "../assets/Works/flyrinzo.png";
+import imgProject3 from "../assets/Works/traclet.png";
+import imgWorksLoveville from "../assets/Works/loveville.png";
 import imgWorksTracman from "../assets/Works/tracman_mockup.png";
 import imgAvatar0 from "../assets/LandingPage-1/cdd0e239cdc4f711bd9f452f8d8dca4dabd17547.png";
 import imgAvatar1 from "../assets/LandingPage-1/6259054dfd21c8de11534318ab98596ddbd7729a.png";
@@ -106,7 +104,7 @@ export const projects = [
   },
   {
     img: imgWorksTracman,
-    title: "Tracman",
+    title: "TRACMAN",
     subtitle: "Making hotel operations feel effortless.",
     tags: ["Product", "Hospitality"],
   },
@@ -126,14 +124,14 @@ export const projects = [
 
 export const allProjects = [
   {
-    img: imgWorksAssure,
+    img: imgProject0,
     title: "HABEEP",
     subtitle: "Making real estate operations feel effortless.",
     tags: ["Real Estate", "Product"],
   },
   {
     img: imgWorksTracman,
-    title: "Tracman",
+    title: "TRACMAN",
     subtitle: "Making hotel operations feel effortless.",
     tags: ["Product", "Hospitality"],
   },
@@ -150,7 +148,7 @@ export const allProjects = [
     tags: ["Product", "Hospitality"],
   },
   {
-    img: imgWorksReunion,
+    img: imgWorksLoveville,
     title: "LOVEVILLE",
     subtitle: "Designing a digital experience for a community-driven event.",
     tags: ["Events", "Community"],
