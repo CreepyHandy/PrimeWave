@@ -12,7 +12,7 @@ import imgLogoRaw9 from "../assets/LandingPage-1/ebca9812717d7de0f182c515bcebabc
 import imgProject0 from "../assets/Works/habeep.png";
 import imgProject2 from "../assets/Works/flyrinzo.png";
 import imgProject3 from "../assets/Works/traclet.png";
-import imgWorksLoveville from "../assets/Works/loveville.jpg";
+import imgWorksLoveville from "../assets/Works/loveville.png";
 import imgWorksTracman from "../assets/Works/tracman_mockup.png";
 import imgAvatar0 from "../assets/LandingPage-1/cdd0e239cdc4f711bd9f452f8d8dca4dabd17547.png";
 import imgAvatar1 from "../assets/LandingPage-1/6259054dfd21c8de11534318ab98596ddbd7729a.png";
