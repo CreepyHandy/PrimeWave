@@ -12,7 +12,7 @@ import imgLogoRaw9 from "../assets/LandingPage-1/ebca9812717d7de0f182c515bcebabc
 import imgProject0 from "../assets/LandingPage-1/e77f1cc99e48fe30a1ff5456759350474c49385f.png";
 import imgProject1 from "../assets/LandingPage-1/b3455181d69bdb79bfe522c0054d4159d6771078.png";
 import imgProject2 from "../assets/Works/flyrinzo.png";
-import imgProject3 from "../assets/LandingPage-1/8667165634c9636b348d82e7aa956251cdf94654.png";
+import imgProject3 from "../assets/Works/traclet.png";
 import imgWorksAssure from "../assets/GeneralWorksPage/e8aae7b65f47cce826c8aa0cd63d52507e152b75.png";
 import imgWorksReunion from "../assets/GeneralWorksPage/ee9ca2f711e5713c9109e8a7486e20bd528cfa2c.png";
 import imgWorksTracman from "../assets/Works/tracman_mockup.png";
