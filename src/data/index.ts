@@ -14,6 +14,30 @@ import imgProject2 from "../assets/Works/flyrinzo.png";
 import imgProject3 from "../assets/Works/traclet.png";
 import imgWorksLoveville from "../assets/Works/loveville.png";
 import imgWorksTracman from "../assets/Works/tracman_mockup.png";
+import imgTracletGallery from "../assets/Works/traclet_gallery.png";
+import imgTracletChallenge0 from "../assets/Works/traclet_challenge0.png";
+import imgTracletChallenge1 from "../assets/Works/traclet_challenge1.png";
+import imgTracletApproach0 from "../assets/Works/traclet_approach0.png";
+import imgTracletApproach1 from "../assets/Works/traclet_approach1.png";
+import imgTracletSolutions from "../assets/Works/traclet_solutions.png";
+import imgFlyrinzoGallery from "../assets/Works/flyrinzo_gallery.png";
+import imgFlyrinzoChallenge0 from "../assets/Works/flyrinzo_challenge0.png";
+import imgFlyrinzoChallenge1 from "../assets/Works/flyrinzo_challenge1.png";
+import imgFlyrinzoApproach0 from "../assets/Works/flyrinzo_approach0.png";
+import imgFlyrinzoApproach1 from "../assets/Works/flyrinzo_approach1.png";
+import imgFlyrinzoSolutions from "../assets/Works/flyrinzo_solutions.png";
+import imgLovevilleGallery from "../assets/Works/loveville_gallery.jpg";
+import imgLovevilleChallenge0 from "../assets/Works/loveville_challenge0.jpg";
+import imgLovevilleChallenge1 from "../assets/Works/loveville_challenge1.jpg";
+import imgLovevilleApproach0 from "../assets/Works/loveville_approach0.jpg";
+import imgLovevilleApproach1 from "../assets/Works/loveville_approach1.jpg";
+import imgLovevilleSolutions from "../assets/Works/loveville_solutions.jpg";
+import imgHabeepGallery from "../assets/Works/habeep_gallery.png";
+import imgHabeepChallenge0 from "../assets/Works/habeep_challenge0.png";
+import imgHabeepChallenge1 from "../assets/Works/habeep_challenge1.png";
+import imgHabeepApproach0 from "../assets/Works/habeep_approach0.png";
+import imgHabeepApproach1 from "../assets/Works/habeep_approach1.png";
+import imgHabeepSolutions from "../assets/Works/habeep_solutions.png";
 import imgAvatar0 from "../assets/LandingPage-1/cdd0e239cdc4f711bd9f452f8d8dca4dabd17547.png";
 import imgAvatar1 from "../assets/LandingPage-1/6259054dfd21c8de11534318ab98596ddbd7729a.png";
 import imgAvatar2 from "../assets/LandingPage-1/44f054b7349d5a1b263a57682db79a056ab3bf06.png";
@@ -308,12 +332,12 @@ export const projectDetails: ProjectDetail[] = [
       "The finished product delivers a modern proptech platform that unites home discovery, property management, messaging, and financial utilities within a cohesive architectural design.\n\nThe updated Habeep suite offers seekers an intuitive pathway to explore properties and direct their housing goals, while equipping representatives with structured methods to publish availability, track listings, and connect with active prospects.",
     solutionsPara2:
       "For property owners, the system delivers complete tools to handle buildings, individual units, resident profiles, and collection schedules through one connected application. Monetary capabilities like digital wallets, automated rent savings, transaction processing, and tenant services extend utility beyond baseline property discovery.\n\nBeyond individual views, the project established a scalable product framework across Habeep’s software family, building an adaptable foundation to accommodate upcoming features, system integrations, and long-term platform expansion.\n\nThe outcome provides an accessible, connected real estate environment that allows users to navigate residential tasks smoothly while supplying housing professionals with robust tools to scale operations.",
-    galleryImg: imgDetailGallery,
-    challengeImg0: imgDetailChallenge0,
-    challengeImg1: imgDetailChallenge1,
-    approachImg0: imgDetailApproach0,
-    approachImg1: imgDetailApproach1,
-    solutionsImg: imgDetailSolutions,
+    galleryImg: imgHabeepGallery,
+    challengeImg0: imgHabeepChallenge0,
+    challengeImg1: imgHabeepChallenge1,
+    approachImg0: imgHabeepApproach0,
+    approachImg1: imgHabeepApproach1,
+    solutionsImg: imgHabeepSolutions,
   },
   {
     overviewHeading: "Making hotel operations feel effortless.",
@@ -376,12 +400,12 @@ export const projectDetails: ProjectDetail[] = [
       "The finished product provides an advanced, AI-driven digital platform that unites asset production, distribution, scheduling, audience engagement, and performance reporting through a cohesive architectural design.\n\nThe updated Flyrinzo suite equips teams with transparent methods to produce media, link external accounts, organize release dates, curate file libraries, utilize premade graphics, cultivate fanbases, and measure overall impact.",
     solutionsPara2:
       "Machine-learning features expand capability beyond traditional publishing suites, guiding users as they write copy, build promotional flyers, spot audience trends, and refine strategic plans.\n\nBeyond standalone views, the project established a consistent brand system across Flyrinzo’s software family, creating an adaptable foundation to accommodate upcoming AI features, native platform additions, and expanding user demand.\n\nThe outcome delivers an accessible digital environment that allows organizations to guide online strategies smoothly while enjoying a seamless creation process.",
-    galleryImg: imgDetailGallery,
-    challengeImg0: imgDetailChallenge0,
-    challengeImg1: imgDetailChallenge1,
-    approachImg0: imgDetailApproach0,
-    approachImg1: imgDetailApproach1,
-    solutionsImg: imgDetailSolutions,
+    galleryImg: imgFlyrinzoGallery,
+    challengeImg0: imgFlyrinzoChallenge0,
+    challengeImg1: imgFlyrinzoChallenge1,
+    approachImg0: imgFlyrinzoApproach0,
+    approachImg1: imgFlyrinzoApproach1,
+    solutionsImg: imgFlyrinzoSolutions,
   },
   {
     overviewHeading: "Making shortlet stays feel simple and seamless.",
@@ -411,12 +435,12 @@ export const projectDetails: ProjectDetail[] = [
       "The final result is a modern shortlet platform that connects guests, hosts, properties, and service providers through a cohesive and scalable digital experience.",
     solutionsPara2:
       "The redesigned guest experience provides a more intuitive way to discover properties, make reservations, manage bookings, access services, and navigate the different stages of a stay.\n\nThe host experience gives property owners a clearer way to manage listings, bookings, calendars, payments, transactions, services, analytics, and other essential operations from one connected platform.",
-    galleryImg: imgDetailGallery,
-    challengeImg0: imgDetailChallenge0,
-    challengeImg1: imgDetailChallenge1,
-    approachImg0: imgDetailApproach0,
-    approachImg1: imgDetailApproach1,
-    solutionsImg: imgDetailSolutions,
+    galleryImg: imgTracletGallery,
+    challengeImg0: imgTracletChallenge0,
+    challengeImg1: imgTracletChallenge1,
+    approachImg0: imgTracletApproach0,
+    approachImg1: imgTracletApproach1,
+    solutionsImg: imgTracletSolutions,
   },
   {
     overviewHeading:
@@ -447,11 +471,11 @@ export const projectDetails: ProjectDetail[] = [
       "The finished product delivers a vibrant, structured digital platform that connects the various aspects of Loveville into a unified user experience.\n\nThe redesigned application equips guests with clear methods to discover the event, grasp its mission, explore scheduled attractions, and find activities tailored to adults, families, or youth. Dedicated operational paths also support performers, merchants, and sponsors by outlining involvement criteria clearly.",
     solutionsPara2:
       "Beyond individual screens, the work established a consistent design and content system that reinforces Loveville's identity while simplifying complex event details across the application.\n\nThe outcome provides an accessible, engaging digital companion that captures the live spirit of the festival, giving visitors complete clarity as they plan attendance, connect with others, and join the community.",
-    galleryImg: imgDetailGallery,
-    challengeImg0: imgDetailChallenge0,
-    challengeImg1: imgDetailChallenge1,
-    approachImg0: imgDetailApproach0,
-    approachImg1: imgDetailApproach1,
-    solutionsImg: imgDetailSolutions,
+    galleryImg: imgLovevilleGallery,
+    challengeImg0: imgLovevilleChallenge0,
+    challengeImg1: imgLovevilleChallenge1,
+    approachImg0: imgLovevilleApproach0,
+    approachImg1: imgLovevilleApproach1,
+    solutionsImg: imgLovevilleSolutions,
   },
 ];
